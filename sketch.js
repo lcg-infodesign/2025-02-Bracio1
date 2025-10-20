@@ -75,7 +75,7 @@ function setup() {
     let x = outer + colCount * (itemSize + padding) + itemSize/2;
     let y = outer + rowCount * (itemSize + padding) + itemSize/2;
 
-    // scelta della palette: ciclica, legata all'index r (pseudo-deterministica)
+    // scelta della palette: ciclica, legata all'index r 
     let pal = basePalettes[(r % basePalettes.length)];
 
     // isolamento del contesto di disegno per ciascun item
