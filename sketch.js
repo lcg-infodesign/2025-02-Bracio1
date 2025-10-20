@@ -1,10 +1,7 @@
-// sketch.js
-// Autoritratti algoritmici — versione psichedelica anni '70
+
 // Carica il tuo "asset/dataset.csv" con header column0..column4
 
-// NOTE: qui sotto sono aggiunti commenti dettagliati in italiano per ogni parte del file,
-// spiegando il ruolo di variabili, funzioni e i passaggi più complessi.
-// I commenti non modificano il funzionamento, aiutano solo la comprensione.
+
 
 let table;            // contiene i dati caricati dal CSV
 let nRows;            // numero di righe del dataset
